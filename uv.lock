@@ -619,6 +619,7 @@ dependencies = [
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
+    { name = "openai" },
     { name = "python-dotenv" },
     { name = "tavily-python" },
 ]
@@ -631,6 +632,7 @@ requires-dist = [
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "langchain-openai", specifier = ">=1.3.5" },
     { name = "langchain-tavily", specifier = ">=0.2.18" },
+    { name = "openai", specifier = ">=2.45.0" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "tavily-python", specifier = ">=0.7.26" },
 ]
