@@ -9,8 +9,7 @@ response = client.responses.create(
     input=[
         {
             "role": "user",
-            "content": [
-                {
+            "content": [{
                     "type": "input_text",
                     "text": "What teams are playing in this image?",
                 },
