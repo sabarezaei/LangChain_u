@@ -23,3 +23,13 @@ except openai.RateLimitError as e:
   #Handle rate limit error (we recommend using exponential backoff)
   print(f"OpenAI API request exceeded rate limit: {e}")
   pass
+
+from colorama import Fore, Back, Style, init
+
+# Initialize colorama (autoreset automatically reverts color after each print)
+init(autoreset=True)
+
+print(Fore.RED + "Red text")
+print(Fore.GREEN + "Green text")
+print(Back.YELLOW + Fore.BLACK + "Black text on a Yellow background")
+print(Style.BRIGHT + Fore.BLUE + "Bright Blue text")
