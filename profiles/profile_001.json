@@ -1,0 +1,25 @@
+{
+    "team_name": "ICAR",
+    "team_members": [
+        {
+            "name": "Saba",
+            "occupation": "Software Engineer",
+            "location": "",
+            "skills": [
+                "Robotics",
+                "Software Engineering"
+            ],
+            "years_of_experience": null
+        },
+        {
+            "name": "Amin",
+            "occupation": "Machine Learning Engineer",
+            "location": "",
+            "skills": [
+                "Robotics",
+                "Machine Learning"
+            ],
+            "years_of_experience": null
+        }
+    ]
+}
